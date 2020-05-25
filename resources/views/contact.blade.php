@@ -9,7 +9,7 @@
 <div class="fish" id="fish"></div>
 <div class="fish" id="fish2"></div>
 
-<form id="waterform1" name="contact_form" action="{{ route('sendMessage') }}" method="POST" >
+<form id="waterform" name="contact_form"  method="POST" >
 {{ csrf_field() }}
 <div id="form_output" style="margin-top:5px;text-align:center;"></div>
  <div class="error-container"></div>
